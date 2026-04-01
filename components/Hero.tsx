@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 
 export default function Hero() {
   const [text, setText] = useState('');
-  const fullText = 'Backend Developer — 3 production systems shipped across fintech, aquaculture, and real estate.';
+  const fullText = 'Backend Developer — Node.js, NestJS & PostgreSQL. 3 production systems in fintech, aquaculture & real estate.';
   
   useEffect(() => {
     let i = 0;
@@ -17,6 +17,8 @@ export default function Hero() {
     }, 30);
     return () => clearInterval(timer);
   }, []);
+
+  const heroStack = ["Node.js", "NestJS", "PostgreSQL", "Docker", "Redis", "TypeScript"];
 
   return (
     <section className="py-20 flex flex-col gap-8">
@@ -32,11 +34,20 @@ export default function Hero() {
         <h1 className="text-5xl md:text-6xl font-bold mb-4 tracking-tighter">
           Fouad Khalid
         </h1>
-        <div className="min-h-[3rem] md:min-h-[2rem]">
+        <div className="min-h-[4rem] md:min-h-[3rem] mb-6">
           <p className="text-secondary text-lg md:text-xl leading-relaxed font-mono">
             {text}
             <span className="animate-pulse inline-block w-2 h-5 bg-accent ml-1 align-middle" />
           </p>
+        </div>
+        
+        <div className="flex flex-wrap gap-x-4 gap-y-2 text-[11px] font-mono text-secondary/80">
+          {heroStack.map((tech, idx) => (
+            <span key={tech} className="flex items-center gap-2">
+              {tech}
+              {idx < heroStack.length - 1 && <span className="text-accent/40">·</span>}
+            </span>
+          ))}
         </div>
       </motion.div>
 

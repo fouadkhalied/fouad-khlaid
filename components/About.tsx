@@ -16,11 +16,10 @@ export default function About() {
         </h2>
         <div className="space-y-6 text-secondary leading-relaxed">
           <p>
-            I specialize in Node.js, NestJS, and PostgreSQL, building production 
-            systems with Clean Architecture and Domain-Driven Design. CS student 
-            at El Shorouk Academy, graduating July 2026. Currently deepening 
-            expertise in system internals through Hussein Nasser's backend 
-            engineering courses and building a distributed API Gateway project.
+            Backend Developer specializing in Node.js, NestJS, and PostgreSQL. 
+            CS student at Shorouk Academy, graduating July 2026. 
+            I've shipped 3 production systems across fintech, aquaculture, and real estate — 
+            focusing on Clean Architecture, scalable APIs, and real business impact.
           </p>
           
           <div>

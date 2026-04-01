@@ -122,33 +122,23 @@ export default function Projects() {
     {
       title: "Digital Advertising Platform",
       badge: "Live Production · Freelance",
-      stack: ["Express.js", "PostgreSQL", "MongoDB", "Docker", "Paymob", "MinIO"],
-      stats: "257 users · SAR 470+ revenue · 9,003 impressions",
-      description: "Full advertising platform with Paymob live payments, credit-to-impressions engine, RBAC, admin approval workflows, dual-database architecture, self-hosted MinIO, automated DB backups. Deployed on Contabo with 100% uptime.",
+      stack: ["Express.js", "PostgreSQL", "MongoDB", "Docker", "JWT", "OAuth2.0", "Paymob"],
+      description: "Freelance project self-hosted on Contabo. Features Paymob payment integration handling SAR 470+ in transactions, and a credit-to-impressions engine (9,000+ impressions, 98 ads, 0.77% CTR). Implements RBAC, admin approval workflows, and broadcast notifications for 257 users. Dual-database architecture (MongoDB + PostgreSQL) with self-hosted MinIO and automated DB backup pipeline. 100% uptime achieved. Full REST API documentation with coordinated ReactJS frontend integration.",
       links: { github: "https://github.com/fouadkhalied", live: "#" }
     },
     {
       title: "Fish Farm Management System",
       badge: "Graduation Project · Lead",
       stack: ["NestJS", "PostgreSQL", "MikroORM", "Redis", "Docker"],
-      stats: "100+ endpoints · 15+ domains · Full Swagger docs",
-      description: "Complete aquaculture management system covering tank monitoring, harvests, procurement, sales, and accounting. Features SSE real-time notifications, feeding-rate calculations, water quality assessments, growth analytics, and a full double-entry accounting subsystem.",
+      description: "Graduation project (Team Lead & Solo Backend). Complete aquaculture management system covering tank monitoring, harvests, procurement, sales, and accounting. Features SSE real-time notifications with role-based delivery, feeding-rate calculations, water quality assessments, and growth analytics. Includes a full accounting subsystem with journal entries, balance sheets, and lot traceability. 100+ REST endpoints across 15+ domains with Swagger docs. Built with Clean Architecture (domain entities, value objects, domain services).",
       links: { github: "https://github.com/fouadkhalied", docs: "#" }
     },
     {
       title: "Real Estate & Blog API Platform",
       badge: "Live Production · Team",
-      stack: ["Express.js", "PostgreSQL", "Drizzle ORM", "Supabase"],
-      description: "Production-ready platform with multi-language support (Arabic/English), RBAC across Admin/User/CustomerService roles, approval workflows, JWT auth, pagination, and search functionality.",
+      stack: ["Express.js", "PostgreSQL", "Drizzle ORM"],
+      description: "Production-ready team project with multi-language support (Arabic/English). Features role-based access control (Admin / User / CustomerService) with approval workflows, JWT authentication, pagination, and search functionality. Full API documentation following layered Clean Architecture.",
       links: { github: "https://github.com/fouadkhalied", live: "#" }
-    },
-    {
-      title: "Distributed API Gateway & Rate Limiter",
-      badge: "In Progress",
-      stack: ["Node.js", "PostgreSQL", "Redis", "Docker", "Nginx"],
-      description: "Programmable gateway with 3 rate limiting algorithms (token bucket, sliding window, fixed window), JWT validation, LRU cache, async request logging to partitioned PostgreSQL, circuit breaker state machine, and live traffic inspector dashboard via SSE.",
-      links: { github: "https://github.com/fouadkhalied" },
-      isComingSoon: true
     }
   ];
 

@@ -10,15 +10,15 @@ export default function Skills() {
     },
     {
       name: "Databases",
-      skills: ["PostgreSQL", "MongoDB", "SQL Server", "Redis"]
+      skills: ["PostgreSQL", "MongoDB", "SQL Server"]
     },
     {
       name: "Backend & APIs",
-      skills: ["Express.js", "NestJS", "REST APIs", "MikroORM", "Drizzle ORM", "JWT", "OAuth2.0", "Paymob", "GraphQL", "Swagger"]
+      skills: ["Express.js", "NestJS", "REST APIs", "MikroORM", "Drizzle ORM", "JWT", "OAuth2.0", "Paymob"]
     },
     {
-      name: "Tools & Infrastructure",
-      skills: ["Docker", "Nginx", "Git", "Linux", "MinIO", "NATS"]
+      name: "Tools & Infra",
+      skills: ["Docker", "Redis", "Nginx", "Git", "Linux", "MinIO"]
     }
   ];
 

@@ -5,16 +5,16 @@ import { motion } from 'motion/react';
 export default function Education() {
   const education = [
     {
-      school: "El Shorouk Academy",
-      degree: "BSc Computer Science",
-      period: "2022–2026",
+      school: "Shorouk Academy, Cairo",
+      degree: "B.Sc. Computer Science",
+      period: "Oct 2022 – Jul 2026",
       description: "Focusing on Software Engineering and Backend Systems."
     },
     {
       school: "DEPI Bootcamp",
       degree: "Microsoft Data Engineer Track",
-      period: "2024",
-      description: "Intensive training on data engineering principles and Microsoft Azure stack."
+      period: "Jun 2024 – Oct 2024",
+      description: "Intensive training on Python, SSIS, SQL, and Azure — with certificate and capstone project."
     }
   ];
 
