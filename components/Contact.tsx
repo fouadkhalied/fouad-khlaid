@@ -30,7 +30,7 @@ export default function Contact() {
               <span className="text-sm font-mono">foukha49@gmail.com</span>
             </a>
             <a 
-              href="https://www.linkedin.com/in/fouad-khalid-784296365/" 
+              href="https://linkedin.com/in/fouad-khalid" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center gap-3 text-secondary hover:text-accent transition-colors"

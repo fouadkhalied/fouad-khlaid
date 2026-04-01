@@ -56,7 +56,7 @@ export default function Hero() {
           GitHub
         </a>
         <a 
-          href="https://www.linkedin.com/in/fouad-khalid-784296365/" 
+          href="https://linkedin.com/in/fouad-khalid" 
           target="_blank" 
           rel="noopener noreferrer"
           className="flex items-center gap-2 px-4 py-2 rounded-md border border-border hover:border-border-hover transition-colors text-sm font-medium"
@@ -72,7 +72,7 @@ export default function Hero() {
           Email
         </a>
         <a 
-          href="/cv.pdf" 
+          href="/fouad-khalid-cv.pdf" 
           download
           className="flex items-center gap-2 px-4 py-2 rounded-md bg-white text-black hover:bg-neutral-200 transition-colors text-sm font-bold"
         >
