@@ -72,7 +72,7 @@ export default function Hero() {
           Email
         </a>
         <a 
-          href="/public/cv.pdf" 
+          href="/cv.pdf" 
           download
           className="flex items-center gap-2 px-4 py-2 rounded-md bg-white text-black hover:bg-neutral-200 transition-colors text-sm font-bold"
         >
