@@ -36,7 +36,7 @@ export default function Contact() {
               className="flex items-center gap-3 text-secondary hover:text-accent transition-colors"
             >
               <Linkedin size={20} />
-              <span className="text-sm font-mono">linkedin.com/in/fouad-khalid</span>
+              <span className="text-sm font-mono">https://www.linkedin.com/in/fouad-khalid-784296365/</span>
             </a>
             <a 
               href="https://github.com/fouadkhalied" 
