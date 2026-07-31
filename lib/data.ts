@@ -129,6 +129,7 @@ export const projectsData: readonly ProjectData[] = [
     ],
     tags: ["Node.js", "NestJS", "PostgreSQL", "MongoDB", "Paymob", "Docker", "RBAC"],
     imageUrl: octopusAdImg,
+    demoUrl: "https://octopusad.com/"
   },
   {
   slug: "multi-channel-ai-integration",
@@ -149,7 +150,8 @@ export const projectsData: readonly ProjectData[] = [
     "RAG-powered FAQ agent using pgvector and Cohere Embeddings"
   ],
   tags: ["Node.js", "NestJS", "n8n", "REST APIs", "Webhooks", "Shopify API", "PostgreSQL", "pgvector", "LangChain", "RAG"],
-  imageUrl: chatwootImg
+  imageUrl: chatwootImg,
+  demoUrl: "https://digital-wave.app/"
 },
   {
     slug: "aquaculture-system",
