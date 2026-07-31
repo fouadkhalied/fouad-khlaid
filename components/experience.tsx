@@ -15,7 +15,7 @@ export default function Experience() {
   const { ref } = useSectionInView("Experience");
   const { theme } = useTheme();
   const linkedinExperienceUrl =
-    "https://www.linkedin.com/in/yousef-eslam-dev/details/experience/";
+    "https://www.linkedin.com/in/fouad-khalid-784296365/details/experience/";
 
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">

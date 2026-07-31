@@ -28,8 +28,8 @@ export default function Intro() {
               duration: 0.2,
             }}>
             <Image
-              src="/yousef.png"
-              alt="Yousef Eslam"
+              src="/personal.jpeg"
+              alt="Fouad Khalid"
               width={100}
               height={256}
               quality={100}
@@ -57,11 +57,11 @@ export default function Intro() {
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}>
-        <span className="font-bold">Hello, I'm Yousef.</span> I'm a{" "}
+        <span className="font-bold">Hello, I'm Fouad.</span> I'm a{" "}
         <span className="font-bold">Full-Stack Software Engineer</span>
         {/* <span className="font-bold underline decoration-indigo-500 underline-offset-4">AI Agents</span> and{" "} */}
         {/* <span className="font-bold underline decoration-indigo-500 underline-offset-4">Workflow Automation</span> */}
-        . I build robust SaaS platforms, intelligent CRMs, and complex API integrations that drive real business impact.
+        . I build robust SaaS platforms, customize ERPs, and complex API integrations that drive real business impact.
       </motion.h1>
 
       <motion.div
@@ -84,21 +84,21 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://wa.me/+201005307391" // Replace with your WhatsApp number
+          href="https://wa.me/+201558525293" // Replace with your WhatsApp number
           target="_blank"
           rel="noopener noreferrer">
           <FaWhatsapp />
         </a>
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/yousef-eslam-dev/"
+          href="https://www.linkedin.com/in/fouad-khalid-784296365/"
           target="_blank">
           <BsLinkedin />
         </a>
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/Yousefeslam214"
+          href="https://github.com/fouadkhalied"
           target="_blank">
           <FaGithubSquare />
         </a>

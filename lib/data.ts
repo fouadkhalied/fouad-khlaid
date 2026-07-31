@@ -1,19 +1,12 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import type { StaticImageData } from "next/image";
-import corpcommentImg from "@/public/corpcomment.png";
-// import ajwadPic from "@/public/ajw-ad-pic.jpg";
-import ajwadPic from "@/public/ajwadPic.jpg";
-import aetherPic from "@/public/aetherPic.jpg";
-import grandPic from "@/public/grandPic.jpg";
-// import crmPic from "@/public/crmPic.avif";
+import corpcommentImg from "@/public/fishfarm360.png";
+import octopusAdImg from "@/public/octupusad.png";
+import chatwootImg from "@/public/chatwoot.png";
 import crmPic from "@/public/crmPic.jpg";
-import trippyPic from "@/public/trippyPic.jpg";
 import realEstateImage from "@/public/realEstateImage.png";
-import tamImg from "@/public/tam.png";
-import dragImg from "@/public/drag.png";
 
 export const links = [
   {
@@ -54,70 +47,38 @@ export type ExperienceData = {
 export const experiencesData: readonly ExperienceData[] = [
   {
     title: "Software Engineer",
-    location: "Cloudilic & Dragify (SaaS) · Remote",
-    date: "Aug 2025 – Present",
+    location: "Digital Wave · Remote",
+    date: "May 2025 – Apr 2026",
     highlights: [
-      "Developed full-stack AI and workflow automation across Cloudilic and its SaaS platform Dragify, serving enterprise clients.",
-      "Built Dragify's core integration nodes including Meta (WhatsApp, Messenger, IG), Shopify, WooCommerce, SQL databases, WordPress, and Google/Microsoft Workspaces.",
-      "Developed custom AI agents and RAG systems using LangChain, OpenAI, and Gemini for intelligent document querying and automated client workflows.",
-      "Architected scalable SaaS infrastructure with robust CI/CD pipelines, stress testing, dynamic billing systems, and system health monitoring.",
-      "Created E-commerce automation templates, including cart abandonment recovery, WhatsApp OTP logistics verification, and customer support AI agents.",
-      "Designed and maintained an admin dashboard to track user metrics, subscription upgrades, and overall workflow execution health.",
-      "Delivered diverse client projects encompassing custom AI CRM automation (e.g., Tamiyouz, Mabrouk), Telegram bots, and high-load backend integrations (e.g., EU Grant Finder).",
-      "Researched and integrated advanced automation strategies and external APIs, optimizing for API costs and execution reliability.",
+      "Built scalable backend services and REST APIs, integrating third-party systems and managing production deployments with Docker and CI/CD pipelines.",
+      "OctopusAd Marketing Platform: Performance marketing platform for managing ad campaigns across multiple channels. Integrated Paymob and built a credit-to-impressions billing engine. Designed RBAC with admin workflows and architected a dual-database setup with self-hosted object storage.",
+      "Multi-Channel AI Integration (WhatsApp & Messenger via Chatwoot): Built a full end-to-end integration connecting WhatsApp and Messenger to internal systems, supporting text, image, and voice formats. Implemented a custom HMAC-SHA256 webhook verifier, designed inventory metadata sync, and built document-ingestion pipelines for an AI FAQ agent.",
     ],
-    skills: "React, Node.js, LangChain, AI Agents, Workflow Automation, SaaS, Webhooks, CI/CD, System Architecture",
+    skills: "Node.js, NestJS, PostgreSQL, MongoDB, Paymob, Docker, n8n, REST APIs, Webhooks, Shopify API, pgvector",
     icon: React.createElement(CgWorkAlt),
   },
   {
-    title: "Software Engineer Intern",
-    location: "Cloudilic & Dragify (SaaS) · Remote",
-    date: "Aug 2025 – Sep 2025",
+    title: "Microsoft Data engineer Internship",
+    location: "DEPI · Hybrid",
+    date: "JUN 2024 – OCT 2024",
     highlights: [
-      "Learned AI fundamentals, including RAG (Retrieval-Augmented Generation), knowledge base design, and embeddings.",
-      "Worked on LangChain and AI-driven document processing systems.",
-      "Assisted in building AI agents capable of analyzing structured documents and automating workflows.",
+      "Completed a 6-month intensive programme focused on Data engineer program for microsoft track",
+      "Mastered SSIS , ETL and azure cloud",
+      "Built a Capstone project using data engineering tools",
     ],
+    skills: "SQL Server and Python",
     icon: React.createElement(CgWorkAlt),
   },
   {
-    title: "Software Engineer",
-    location: "Ajwad Developments · Cairo, Egypt · On-site",
-    date: "Sep 2024 – Aug 2025",
+    title: "Mern Stack Internship",
+    location: "SEF Academy · Remote",
+    date: "SEP 2023 – MAR 2024",
     highlights: [
-      "Customized Odoo ERP modules to fit the real estate workflow — added payment plan options, resale unit features, and better lead tracking tools.",
-      "Improved the CRM system to make it easier for the sales team to manage clients, follow up on leads, and track property sales.",
-      "Optimized system workflows to reduce manual work and errors by identifying pain points with the sales and operations teams.",
-      "Developed and enhanced the company website using Next.js, Node.js, and TypeScript, applying modern UI/UX principles to improve property showcasing, SEO, and user experience.",
-      "Helped train the sales team to use the Odoo system effectively for booking, follow-ups, and reporting.",
-      "Worked on marketing tasks, including learning about digital marketing, sales funnels, branding, and how to attract clients through content and social media.",
-      "Collaborated with multiple departments (sales, IT, marketing, and management) to build tools that solve real business problems and improve communication.",
+      "Completed a 7-month intensive programme focused on full-stack nodejs",
+      "Mastered JavaScript, MongoDB",
+      "Built 5+ full-stack projects using Node.js, Express, React and MongoDB",
     ],
-    icon: React.createElement(CgWorkAlt),
-  },
-  {
-    title: "Frontend Web Developer",
-    location: "Crystal Soft · Cairo, Egypt · Internship",
-    date: "Jun 2025 – Jul 2025",
-    highlights: [
-      "Gained experience in big, real systems, understanding how frontend and backend teams work together.",
-      "Worked on a large ERP system and got real-world experience with both frontend development and business logic.",
-      "Collaborated with senior frontend and backend developers, and learned how business needs translate into technical features.",
-      "Gained exposure to real business logic and improved coding and teamwork skills.",
-    ],
-    icon: React.createElement(CgWorkAlt),
-  },
-  {
-    title: "Software Engineer Internship",
-    location: "ALX Africa · Remote",
-    date: "Nov 2023 – Nov 2024",
-    highlights: [
-      "Completed a 12-month intensive programme focused on full-stack software engineering.",
-      "Mastered C, Python, JavaScript, SQL, and Bash scripting.",
-      "Built low-level systems: memory allocation, shell, malloc, linked lists.",
-      "Practiced OOP, recursion, data structures, algorithms, and debugging, and gained hands-on experience in web development.",
-    ],
-    skills: "Software Development, Node.js, React.js, C++",
+    skills: "JS, Problem solving",
     icon: React.createElement(CgWorkAlt),
   },
   {
@@ -132,6 +93,7 @@ export const experiencesData: readonly ExperienceData[] = [
     skills: "C++, Problem Solving",
     icon: React.createElement(LuGraduationCap),
   },
+
 ];
 
 export type ProjectData = {
@@ -149,102 +111,66 @@ export type ProjectData = {
 
 export const projectsData: readonly ProjectData[] = [
   {
-    slug: "dragify-ai-workflow-automation-platform",
-    title: "Dragify - AI Workflow Automation Platform",
+    slug: "octopusad-marketing-platform",
+    title: "OctopusAd - Performance Marketing Platform",
     description:
-      "No-code AI automation platform for building custom AI agents, integrating enterprise tools, and orchestrating real-time multi-agent workflows.",
+      "Performance marketing platform for managing ad campaigns across multiple channels, with a credit-to-impressions billing engine and role-based access control.",
     details: [
-      "Dragify enables teams to automate marketing, sales, customer support, operations, HR, and finance workflows with minimal engineering effort.",
-      "The platform connects with CRMs, Slack, Gmail, Google Drive, Shopify, and other enterprise systems through scalable API integrations.",
-      "It focuses on real-time automation, webhook-driven orchestration, and one-click deployment to reduce manual work, engineering time, and operational errors.",
-      "My role included AI workflow automation, internal node development, and scalable integration delivery.",
+      "Built at Digital Wave as a key project, OctopusAd is a multi-channel ad campaign management platform designed for performance marketers.",
+      "Integrated Paymob as the payment gateway and engineered a custom credit-to-impressions billing engine to track and convert payments into ad delivery units.",
+      "Designed a full RBAC system with admin workflows to control access and operations across different user roles.",
+      "Architected a dual-database setup (PostgreSQL + MongoDB) with self-hosted object storage for flexible data management and media handling.",
     ],
     highlights: [
-      "Built and maintained custom internal Dragify nodes",
-      "Developed AI-powered workflows integrating Meta channels (WhatsApp, Messenger, Instagram), Trello, Google Workspace, and Microsoft tools",
-      "Designed asynchronous event-driven automations using webhooks for real-time task execution",
-      "Improved reliability and performance with unit testing, stress testing, and code-level optimizations",
-      "Collaborated with product and engineering teams to ship scalable AI automation across multiple business domains",
-      "Enabled low-code workflow automation for marketing, sales, operations, and HR teams",
-      "Reduced manual effort and operational errors across connected systems",
+      "Multi-channel ad campaign management",
+      "Paymob integration with a custom credit-to-impressions billing engine",
+      "RBAC system with admin workflows",
+      "Dual-database architecture (PostgreSQL + MongoDB) with self-hosted object storage",
     ],
-    tags: [
-      "AI Agents",
-      "Workflow Automation",
-      "No-Code Platform",
-      "Webhooks",
-      "API Integrations",
-      "Full-Stack Development",
-    ],
-    imageUrl: dragImg,
-    demoUrl: "https://dragify.ai",
+    tags: ["Node.js", "NestJS", "PostgreSQL", "MongoDB", "Paymob", "Docker", "RBAC"],
+    imageUrl: octopusAdImg,
   },
   {
-    slug: "tamiyouz-whatsapp-crm-automation",
-    title: "Tamiyouz - AI-Powered WhatsApp-to-CRM Sales Automation",
-    description:
-      "AI-powered CRM automation that converts WhatsApp conversations into structured lead qualification and automated pipeline movement with optional human takeover.",
-    details: [
-      "Tamiyouz is a production-grade AI CRM automation system built for real businesses, not a simple chatbot.",
-      "I handled AI automation, AI agent development, workflow automation, and full-stack implementation.",
-      "The system qualifies every lead step-by-step, captures structured information in CRM, and moves leads through the sales pipeline automatically while keeping human handoff available at any time.",
-    ],
-    highlights: [
-      "Structured AI qualification that asks one focused question at a time",
-      "CRM integration with Trello card creation, summary updates, labels, and stage tracking",
-      "Automatic pipeline progression based on lead responses",
-      "Human-in-the-loop controls for intervention and review at any moment",
-      "Knowledge-base grounding from campaign-specific PDF documents",
-      "Cost-efficient AI design optimized for token usage and per-message cost",
-      "Multi-session WhatsApp support for teams handling concurrent conversations",
-      "Full message logging for traceability, auditing, and team visibility",
-      "Business impact: faster response times and fewer missed opportunities",
-      "Business impact: cleaner structured data and improved decision making",
-      "Business impact: fewer manual pipeline errors with scalable operations",
-      "Connected and stabilized Meta integrations (Messenger & Instagram)",
-      "Fixed system bugs and managed domain updates across multiple environments",
-    ],
-    tags: [
-      "Gemini",
-      // "LangChain",
-      "AI Chatbot",
-      "AI Agent Development",
-      // "Workflow Automation",
-      "Full-Stack Development",
-    ],
-    imageUrl: tamImg,
-    videoUrl: "https://www.youtube.com/watch?v=seyuTFpNhTQ",
-  },
+  slug: "multi-channel-ai-integration",
+  title: "Multi-Channel AI Integration (WhatsApp & Messenger)",
+  description: "Full end-to-end integration connecting WhatsApp and Messenger to internal systems via Chatwoot, with AI-powered FAQ automation and real-time webhook processing.",
+  details: [
+    "Built at Digital Wave, this project integrates the open-source CRM Chatwoot with WhatsApp and Messenger, connecting them to internal business systems.",
+    "Supports text, image, and voice message formats across both channels.",
+    "Implemented a custom HMAC-SHA256 webhook verifier for secure and validated event handling.",
+    "Designed inventory metadata sync and document-ingestion pipelines powering an AI FAQ agent built with LangChain, pgvector, and Cohere Embeddings."
+  ],
+  highlights: [
+    "Full end-to-end WhatsApp & Messenger integration via Chatwoot",
+    "Custom HMAC-SHA256 webhook verifier for secure event validation",
+    "Inventory metadata sync pipeline for real-time data accuracy",
+    "Document-ingestion pipeline for AI FAQ agent knowledge base",
+    "Multi-format support: text, image, and voice messages",
+    "RAG-powered FAQ agent using pgvector and Cohere Embeddings"
+  ],
+  tags: ["Node.js", "NestJS", "n8n", "REST APIs", "Webhooks", "Shopify API", "PostgreSQL", "pgvector", "LangChain", "RAG"],
+  imageUrl: chatwootImg
+},
   {
-    slug: "eu-grant-finder",
-    title: "EU Grant Finder",
+    slug: "aquaculture-system",
+    title: "Aquaculture System",
     description:
-      "AI-powered Grant Matcher platform built with React and Node.js to rank real EU funding calls using hybrid scoring and optional AI insights.",
+      "Multi-tenant SaaS platform for fish farm management covering Inventory, IoT sensor integrations, and AI-powered fish disease detection.",
     details: [
-      "Grant Matcher solves slow manual grant discovery by matching an organization profile against real calls from the EU Funding & Tenders ecosystem through the EU Search API.",
-      "Users can sign up, create an organization profile, run filtered searches, and review ranked grants with match scores, AI explanations, and structured insights before opening the official EU call link.",
-      "The system combines rule-based scoring with optional semantic AI scoring, AI query enhancement, document insight extraction, and caching controls to balance relevance, speed, and API cost.",
-      "The platform includes secure auth (email/password plus optional Google/Facebook OAuth), session-based protection for search routes, and production-oriented performance controls such as paged fetching and concurrency limits.",
+      "Graduation project architected as a multi-tenant SaaS with NestJS/Fastify, PostgreSQL, and MikroORM, following Hexagonal Architecture and DDD principles.",
+      "Built IoT sensor integrations for real farm deployment, monitoring water quality, feed, and fish health.",
+      "Integrated a fine-tuned AI model via REST API for fish disease detection.",
+      "Deployed via Docker, Cloudflare Workers (SSL/TLS), and custom domain at fishfarm360.site.",
     ],
     highlights: [
-      "Frontend built with React + TypeScript (Vite, Tailwind, Radix UI, Wouter, TanStack Query)",
-      "Backend built with Node.js + Express TypeScript (Passport auth, MongoDB/Mongoose)",
-      "Real EU Search API integration with no mock grant data",
-      "Hybrid matching: rule-based scoring + optional AI semantic scoring",
-      "AI query enhancement, AI explanations, and top-results document analysis",
-      "User-controlled AI toggles, caching, progressive loading, and concurrency limits",
+      "Multi-tenant SaaS with Hexagonal Architecture and Domain-Driven Design",
+      "IoT modules for real-time water quality, feed, and fish health monitoring",
+      "Fine-tuned AI model integration for fish disease detection",
+      "Production deployment with Docker, Cloudflare Workers, and custom SSL/TLS",
     ],
-    tags: [
-      "React.js",
-      "TypeScript",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "OpenAI",
-      "EU Funding API",
-    ],
+    tags: ["NestJS", "Fastify", "PostgreSQL", "MikroORM", "IoT", "AI", "Docker", "Cloudflare"],
     imageUrl: corpcommentImg,
-    demoUrl: "https://eu.dragify.ai/",
+    demoUrl: "https://fishfarm360.site",
   },
   {
     slug: "real-estate-website",
@@ -288,132 +214,54 @@ export const projectsData: readonly ProjectData[] = [
       "https://drive.google.com/file/d/1fGMzCh8GFaN8pnWWDy6BsmetVQLu-aO5/view?usp=drivesdk",
     githubUrl: "https://github.com/Ajwad-real-estate",
   },
-  {
-    slug: "grand-events-website",
-    title: "Grand Events Website",
-    description:
-      "An elegant and responsive website for an event management company. Designed with a modern UI to showcase services and events.",
-    details: [
-      "A modern marketing site for an event management company, focused on clear service presentation and strong visuals.",
-      "Built with a responsive layout and smooth UI to highlight services, galleries, and call-to-action sections.",
-    ],
-    highlights: [
-      "Modern responsive UI",
-      "Service-first layout and CTAs",
-      "Optimized media and performance",
-    ],
-    tags: ["Next.js", "Tailwind", "React"],
-    imageUrl: grandPic,
-    demoUrl: "https://grand-events-website.vercel.app/",
-    githubUrl: "https://github.com/Yousefeslam214/Grand-Events-Website",
-  },
   // {
-  //   slug: "mabrouk-project",
-  //   title: "Mabrouk - Core Platform & Dashboard",
+  //   slug: "grand-events-website",
+  //   title: "Grand Events Website",
   //   description:
-  //     "A comprehensive client project involving core backend/frontend development, Telegram bot functionality, and a dedicated product dashboard.",
+  //     "An elegant and responsive website for an event management company. Designed with a modern UI to showcase services and events.",
   //   details: [
-  //     "Developed core backend and frontend features for the Mabrouk platform with continuous validations.",
-  //     "Implemented advanced Telegram-related functionalities.",
-  //     "Built and refined a detailed Product Dashboard for inventory and order management.",
+  //     "A modern marketing site for an event management company, focused on clear service presentation and strong visuals.",
+  //     "Built with a responsive layout and smooth UI to highlight services, galleries, and call-to-action sections.",
   //   ],
   //   highlights: [
-  //     "End-to-end full-stack development",
-  //     "Telegram bot integration",
-  //     "Product Dashboard implementation",
+  //     "Modern responsive UI",
+  //     "Service-first layout and CTAs",
+  //     "Optimized media and performance",
   //   ],
-  //   tags: ["React", "Node.js", "Telegram API", "Full-Stack Development"],
-  //   imageUrl: crmPic,
-  // },
-  // {
-  //   slug: "learning-rockets",
-  //   title: "Learning Rockets",
-  //   description:
-  //     "Client project focused on active development and strategic planning through ongoing synchronization.",
-  //   details: [
-  //     "Analyzed initial requirements, drafted contracts, and constructed the complete project plan.",
-  //     "Executed active development and tracked progress via ongoing sync meetings to ensure alignment with client goals.",
-  //   ],
-  //   highlights: [
-  //     "Requirements analysis and contract drafting",
-  //     "Project planning and structured execution",
-  //   ],
-  //   tags: ["Project Planning", "Full-Stack Development", "Agile Execution"],
-  //   imageUrl: dragImg,
-  // },
-  // {
-  //   slug: "ajwad-website",
-  //   title: "Ajwad Website",
-  //   description:
-  //     "Corporate website developed for a real estate brand. Built using WordPress with custom theme modifications.",
-  //   details: [
-  //     "A corporate website for a real estate brand, built on WordPress with custom theme adjustments.",
-  //     "Focused on a professional look, content structure, and maintainability for non-technical updates.",
-  //   ],
-  //   highlights: ["Custom theme modifications", "Content-focused structure"],
-  //   tags: ["WordPress"],
-  //   imageUrl: ajwadPic,
-  //   demoUrl: "https://ajw-ad.net/",
-  // },
-  // {
-  //   slug: "aether-pixels-website",
-  //   title: "Aether Pixels Website",
-  //   description:
-  //     "A visually-rich website created for a design agency. Built with WordPress focusing on aesthetics and performance.",
-  //   details: [
-  //     "A visually rich website for a design agency with a strong emphasis on aesthetics and fast loading.",
-  //     "Built on WordPress to allow easy content updates while maintaining a polished UI.",
-  //   ],
-  //   highlights: ["Design-focused layout", "Performance-minded build"],
-  //   tags: ["WordPress"],
-  //   imageUrl: aetherPic,
-  //   demoUrl: "https://aetherpixels.com",
-  //   // githubUrl: "https://github.com/your-username/aetherpixels",
-  // },
-  // {
-  //   slug: "trippy-website",
-  //   title: "Trippy Website",
-  //   description:
-  //     "A modern travel-themed web app built using React.js and JavaScript. Focused on smooth UI and performance.",
-  //   details: [
-  //     "A travel-themed web app with a modern, smooth UI and responsive layout.",
-  //     "Built with React to practice component-driven architecture and interactive UI patterns.",
-  //   ],
-  //   highlights: ["Component-based UI", "Responsive layout", "Smooth interactions"],
-  //   tags: ["React.js", "JavaScript"],
-  //   imageUrl: trippyPic,
-  //   demoUrl: "https://trippy-214.netlify.app/",
-  //   githubUrl: "https://github.com/Yousefeslam214/Trippy",
+  //   tags: ["Next.js", "Tailwind", "React"],
+  //   imageUrl: grandPic,
+  //   demoUrl: "https://grand-events-website.vercel.app/",
+  //   githubUrl: "https://github.com/Yousefeslam214/Grand-Events-Website",
   // },
 ];
 
 export const skillsData = [
-  "AI Agents",
-  "RAG Systems",
-  "LangChain",
-  "Workflow Automation",
-  "Webhooks",
-  "APIs",
-  "Next.js",
-  "React",
   "Node.js",
-  "Express",
+  "NestJS",
   "TypeScript",
   "JavaScript",
-  "Python",
-  "WordPress",
-  "Shopify",
-  "Odoo",
-  "Tailwind",
   "PostgreSQL",
   "MongoDB",
-  "Redux",
-  "Vector Databases",
-  "Framer Motion",
+  "Redis",
+  "REST APIs",
+  "Webhooks",
+  "Docker",
   "CI/CD",
-  "DevOps",
-  "System Design",
+  "React",
+  "Next.js",
+  "RAG Systems",
+  "AI Agents",
+  "pgvector",
+  "n8n",
+  "Shopify API",
+  "Paymob",
+  "OAuth2",
+  "HMAC Authentication",
+  "Clean Architecture",
+  "DDD",
+  "Nginx",
+  "Linux",
   "Git",
-  "CSS",
-  "HTML",
+  "GitHub Actions",
+  "ASP.NET",
 ] as const;

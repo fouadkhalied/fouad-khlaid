@@ -21,7 +21,7 @@ export default function About() {
         <article className="rounded-2xl border border-black/10 bg-white/80 p-6 text-left shadow-sm dark:border-white/10 dark:bg-white/10">
           <h3 className="mb-2 text-xl font-semibold">Who I am</h3>
           <p className="text-lg text-gray-800 dark:text-white/80">
-            I am a <span className="font-medium text-indigo-600 dark:text-indigo-400">Full-Stack Software & AI Engineer</span> with a deep passion for building intelligent SaaS platforms, scalable backend integrations, and AI-driven automation workflows that solve complex engineering challenges.
+            I am a <span className="font-medium text-indigo-600 dark:text-indigo-400">Full-Stack Software</span> with a deep passion for building intelligent SaaS platforms, scalable backend integrations, and AI-driven automation workflows that solve complex engineering challenges.
           </p>
         </article>
 
@@ -33,23 +33,22 @@ export default function About() {
         </article>
 
         <article className="rounded-2xl border border-black/10 bg-white/80 p-6 text-left shadow-sm dark:border-white/10 dark:bg-white/10">
-          <h3 className="mb-2 text-xl font-semibold">What I Build</h3>
-          <ul className="list-disc space-y-2 pl-6 text-lg text-gray-800 dark:text-white/80">
-            <li><span className="font-medium">AI & RAG Systems:</span> Intelligent document processing and semantic search pipelines using LangChain, Vector Databases, and OpenAI/Gemini.</li>
-            <li><span className="font-medium">SaaS & Automation Nodes:</span> Core API integrations, heavy-duty webhooks, and scalable infrastructure for low-code automation platforms.</li>
-            <li><span className="font-medium">Full-Stack Applications:</span> End-to-end web apps featuring React.js frontends, secure Node.js backends, and complex SQL/NoSQL databases.</li>
-            <li><span className="font-medium">DevOps & Infrastructure:</span> System health monitoring, dynamic billing architecture, and load-tested cloud deployments.</li>
-          </ul>
-        </article>
+  <h3 className="mb-2 text-xl font-semibold">What I Build</h3>
+  <ul className="list-disc space-y-2 pl-6 text-lg text-gray-800 dark:text-white/80">
+    <li><span className="font-medium">Backend Services & APIs:</span> Scalable REST APIs, webhook systems, third-party integrations, and production deployments using Node.js, NestJS, and PostgreSQL.</li>
+    <li><span className="font-medium">AI-Powered Features:</span> RAG pipelines, document-ingestion systems, and AI FAQ agents using LangChain, pgvector, and Cohere Embeddings.</li>
+    <li><span className="font-medium">SaaS & Integrations:</span> Multi-tenant platforms, RBAC systems, billing engines, and channel integrations (WhatsApp, Messenger, Shopify) from design to deployment.</li>
+  </ul>
+</article>
 
-        <article className="rounded-2xl border border-black/10 bg-white/80 p-6 text-left shadow-sm dark:border-white/10 dark:bg-white/10">
-          <h3 className="mb-2 text-xl font-semibold">Tech Stack & Tools</h3>
-          <p className="text-lg leading-relaxed text-gray-800 dark:text-white/80">
-            <span className="font-medium">Languages & Frameworks:</span> TypeScript, Node.js, React.js, Next.js, Express.js<br />
-            <span className="font-medium">AI Engineering:</span> LangChain, RAG, Vector Embeddings, LLM Orchestration, Generative AI<br />
-            <span className="font-medium">Databases & Infrastructure:</span> PostgreSQL, MySQL, MongoDB, Webhooks, RESTful APIs, CI/CD
-          </p>
-        </article>
+<article className="rounded-2xl border border-black/10 bg-white/80 p-6 text-left shadow-sm dark:border-white/10 dark:bg-white/10">
+  <h3 className="mb-2 text-xl font-semibold">Tech Stack & Tools</h3>
+  <p className="text-lg leading-relaxed text-gray-800 dark:text-white/80">
+    <span className="font-medium">Languages & Frameworks:</span> TypeScript, JavaScript, C#, Node.js, NestJS, Express.js, ASP.NET, React, Next.js<br />
+    <span className="font-medium">AI & Integrations:</span> LangChain, RAG, pgvector, Cohere Embeddings, n8n, Shopify API, Paymob<br />
+    <span className="font-medium">Databases & DevOps:</span> PostgreSQL, MongoDB, Redis, Docker, Nginx, GitHub Actions, Linux
+  </p>
+</article>
       </div>
     </motion.section>
   );
