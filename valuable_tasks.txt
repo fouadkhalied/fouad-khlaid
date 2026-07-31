@@ -1,0 +1,57 @@
+# Extracted Valuable Tasks (Deduplicated)
+
+## 1. Dragify Core Integrations & Nodes
+- **Meta Integrations**: Develop and refine Facebook Posting, Instagram Sender/Listener, and Messenger integrations; fix AI Agent compatibility and OAuth flows.
+- **Shopify Node**: Implement triggers, normal actions (CRUD for Orders, Customers, Products), Webhooks, Returns & Refunds (returnCreate, refundCreate), Customer Verification (Email/Phone/Name), and Multiple Carrier Routing.
+- **WooCommerce Node**: Develop triggers and actions including orderMarkAsPaid and refundCreate.
+- **WhatsApp Node**: Implement Listener/Sender, media support (images, videos, voice), confirmation buttons, group messaging, OTP verification, and status triggers.
+- **Database Integrations**: Build and stabilize SQL Node & Triggers (MySQL, PostgreSQL, SQL Server support).
+- **WordPress Integration**: Develop CRUD actions and triggers; optimize for high load (tested up to 2000 requests).
+- **Google Workspace & Email**: Implement and fix integrations for Google Drive (Triggers/Uploads), Google Calendar, Gmail, and Outlook (Triggers/Actions).
+- **Other Nodes**: Develop and maintain integrations for Slack, RSS, Airtable, Supabase, Notion, Trello, Jira, Odoo, ERPNext, ClickUp, Azure Storage, Custom APIs, and WebSearch.
+- **AI & LLM Integration**: Integrate OpenAI, Gemini, Llama, DocSearch, and build RAG Studio functionality.
+
+## 2. Platform Infrastructure & DevOps (Dragify)
+- **CI/CD & Deployment**: Plan and execute CI/CD pipelines, initialize/migrate production servers, and handle domain configurations.
+- **System Stability & Load Testing**: Perform stress testing on heavy nodes (SQL, RSS, WordPress) and monitor execution reliability.
+- **Codebase Management**: Refactor project structure to align with GitHub repository standards and resolve environment (.env) configuration issues.
+- **Billing & Credits System**: Implement and dynamically update the Node Credit Consumption System based on new pricing tiers (categorizing nodes by cost).
+
+## 3. Admin Dashboard Development
+- **User & Subscription Metrics**: Build tracking for total/paying/free users, new sign-ups, and upgrade rates.
+- **Workflow Operations**: Track total workflows run, success/failure rates, average execution times, and credit usage.
+- **System Health Monitoring**: Monitor MongoDB/Mongoose connection status and third-party API health (AWS S3, Google OAuth, Microsoft OAuth, OpenAI).
+
+## 4. E-commerce Templates & Ready-made Workflows
+- **Sales & Recovery**: Build Cart Abandonment Automation and Return Deflection & Exchange Saver workflows.
+- **Verification & Logistics**: Develop WhatsApp OTP for COD Verification, Delivery Status, and Failed Delivery Rescue Orchestrator.
+- **Reconciliation & Sync**: Create COD Cash & Settlement Reconciliation Agent and Catalog Drift & Marketplace Gap Watchdog.
+- **Customer Support**: Develop Customer Support AI Agents, Sales Rehearsal bots, and multi-send email campaigns.
+
+## 5. Client Project: Mabrouk
+- Develop core backend/frontend features and conduct continuous validations.
+- Implement Telegram-related functionality requirements.
+- Build and refine the Product Dashboard.
+
+## 6. Client Project: Learning Rockets
+- Analyze initial requirements, draft contracts, and construct project plan.
+- Execute active development and track progress via ongoing sync meetings.
+
+## 7. Client Project: Tamiyouz
+- Finalize contracts (v1, v2) and deliver phased milestones.
+- Connect and stabilize Meta integrations (Messenger & Instagram).
+- Fix system bugs, apply requested edits, and manage domain updates.
+
+## 8. Client Project: Zayed
+- Investigate, debug, and resolve reported workflow/system issues.
+- Overhaul project structure, update product listings, and apply optimizations.
+
+## 9. Other Client Projects (Helhal, EU, Masar Auto, etc.)
+- **Helhal**: Complete WhatsApp integration.
+- **EU Client**: Deliver finalized project, configure new servers, and manage follow-ups.
+- **General Follow-ups**: Maintain communications and deliverables for Logistics, Masar Auto, EgyProperty, and Pharmacies Empire <> Cloudilic.
+
+## 10. Research & Strategy
+- **Payment Gateways**: Research Paymob dashboard for custom subscription plans and recurring billing management.
+- **AI & Automation**: Explore LangChain for advanced AI workflows and investigate Make.com approaches for web scraping.
+- **E-commerce**: Conduct ongoing research into e-commerce systems, workflow structures, and automation best practices.
