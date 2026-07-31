@@ -188,9 +188,9 @@ export const projectsData: readonly ProjectData[] = [
     ],
     tags: ["Next.js", "TypeScript", "Node.js", "Tailwind"],
     imageUrl: realEstateImage,
-    demoUrl: "https://real-estate-website-nextjs-lovat.vercel.app/",
+    demoUrl: "https://www.ajw-ad.net/",
     // videoUrl: "",
-    githubUrl: "https://github.com/Yousefeslam214/real-estate-website-nextjs",
+    githubUrl: "https://github.com/fouadkhalied/RealtyHub",
   },
 
   {
