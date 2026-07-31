@@ -3,7 +3,7 @@ import Link from "next/link";
 import { projectsData } from "@/lib/data";
 
 export const metadata = {
-  title: "Projects | Yousef",
+  title: "Projects | Fouad",
   description: "Selected projects and case studies.",
 };
 
