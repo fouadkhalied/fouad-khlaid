@@ -7,6 +7,7 @@ import octopusAdImg from "@/public/octupusad.png";
 import chatwootImg from "@/public/chatwoot.png";
 import crmPic from "@/public/crmPic.jpg";
 import realEstateImage from "@/public/realEstateImage.png";
+import schoolAdmissionImg from "@/public/schoolAdmission.png";
 
 export const links = [
   {
@@ -175,6 +176,29 @@ export const projectsData: readonly ProjectData[] = [
     demoUrl: "https://fishfarm360.site",
   },
   {
+  slug: "school-admission",
+  title: "School Admission",
+  description:
+    "A production-ready school admission platform where I transformed a professionally designed UI/UX into a fully functional Next.js application with Supabase integration and additional features.",
+
+  details: [
+    "Collaborated with a Senior Project Manager to translate a professional UI/UX design into a responsive, production-ready Next.js application.",
+    "Integrated Supabase for backend services, including data management and authentication where required.",
+    "Extended the original design by implementing additional features, improving user experience, responsiveness, and overall functionality.",
+  ],
+
+  highlights: [
+    "Converted UI/UX into production code",
+    "Supabase backend integration",
+    "Feature enhancements beyond original design",
+    "Responsive and optimized performance",
+  ],
+
+  tags: ["Next.js", "Supabase"],
+  imageUrl: schoolAdmissionImg,
+  demoUrl: "https://school-admition.vercel.app/",
+},
+  {
     slug: "real-estate-website",
     title: "Real Estate Website",
     description:
@@ -216,25 +240,6 @@ export const projectsData: readonly ProjectData[] = [
       "https://drive.google.com/file/d/1fGMzCh8GFaN8pnWWDy6BsmetVQLu-aO5/view?usp=drivesdk",
     githubUrl: "https://github.com/Ajwad-real-estate",
   },
-  // {
-  //   slug: "grand-events-website",
-  //   title: "Grand Events Website",
-  //   description:
-  //     "An elegant and responsive website for an event management company. Designed with a modern UI to showcase services and events.",
-  //   details: [
-  //     "A modern marketing site for an event management company, focused on clear service presentation and strong visuals.",
-  //     "Built with a responsive layout and smooth UI to highlight services, galleries, and call-to-action sections.",
-  //   ],
-  //   highlights: [
-  //     "Modern responsive UI",
-  //     "Service-first layout and CTAs",
-  //     "Optimized media and performance",
-  //   ],
-  //   tags: ["Next.js", "Tailwind", "React"],
-  //   imageUrl: grandPic,
-  //   demoUrl: "https://grand-events-website.vercel.app/",
-  //   githubUrl: "https://github.com/Yousefeslam214/Grand-Events-Website",
-  // },
 ];
 
 export const skillsData = [
